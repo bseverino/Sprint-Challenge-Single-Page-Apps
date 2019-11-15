@@ -27,7 +27,7 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ]  Explain benefit(s) using `client-side routing`?
 
-> Answer:
+> Answer: The page doesn't have to rerender when you go to a different page, so you can keep the same state.
 
 ## Project Set Up
 
