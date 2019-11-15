@@ -1,7 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Creepster|Tomorrow&display=swap');
+
+* {
+  font-size: 62.5%;
+}
+
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: 'Tomorrow', sans-serif;
+  background-image: url(img/background.png);
+  background-position: absolute;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 main {
@@ -9,7 +19,7 @@ main {
   min-height: 80vh;
   max-width: 1024px;
   margin: 35px auto;
-  background: #fff;
+  background-color: rgba(255, 255, 255, 0.3);
   padding: 15px;
   box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
 }
@@ -27,13 +37,41 @@ main {
 .grid-view div.card.ui {
   margin: 1.25rem;
 }
-/*
+
 .main-img {
   display: block;
+  border: 1px solid #000;
   border-radius: 100%;
   margin: 0 auto;
-} */
+}
 
 header h1 {
   text-align: center;
+  font-size: 8rem;
+  color: #FFF;
+  font-family: 'Creepster', cursive;
+}
+
+h2 {
+  font-size: 3rem !important;  
+  font-family: 'Tomorrow', sans-serif;
+  color: #000;
+  margin-bottom: 3rem !important;
+}
+
+h3 {
+  font-family: 'Creepster', cursive;
+  font-size: 5rem !important;
+  margin-top: 2rem !important;
+}
+
+p, li {
+  font-size: 1.6rem;
+  color: #FFF;
+  font-family: 'Tomorrow', sans-serif;
+}
+
+a {
+  font-size: 2rem;
+  text-decoration: none;
 }
