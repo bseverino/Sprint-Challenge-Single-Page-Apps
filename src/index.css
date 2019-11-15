@@ -53,17 +53,22 @@ header h1 {
 }
 
 h2 {
-  font-size: 3rem;  
+  font-size: 3rem !important;  
+  font-family: 'Tomorrow', sans-serif;
+  color: #000;
+  margin-bottom: 3rem !important;
 }
 
 h3 {
   font-family: 'Creepster', cursive;
-  font-size: 5rem;
+  font-size: 5rem !important;
+  margin-top: 2rem !important;
 }
 
 p, li {
   font-size: 1.6rem;
   color: #FFF;
+  font-family: 'Tomorrow', sans-serif;
 }
 
 a {

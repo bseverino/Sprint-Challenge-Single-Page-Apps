@@ -7,7 +7,7 @@ const Search = styled.section`
   width: 100%;
   display: flex;
   justify-content: center;
-  margin-top: 30px;
+  margin-top: 20px;
 `;
 
 const Input = styled.input`

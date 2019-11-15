@@ -8,7 +8,7 @@ import CharacterList from './components/CharacterList';
 
 const NavBar = styled.nav`
   width: 300px;
-  margin: -2rem auto 0;
+  margin: 0 auto 2rem;
   display: flex;
   justify-content: space-around;
 `;
