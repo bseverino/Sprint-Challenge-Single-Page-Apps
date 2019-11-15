@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Creepster|Tomorrow&display=swap');
+
 * {
   font-size: 62.5%;
 }
@@ -5,7 +7,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: 'Tomorrow', sans-serif;
   background-image: url(img/background.png);
   background-position: absolute;
   background-attachment: fixed;
@@ -38,18 +40,25 @@ main {
 
 .main-img {
   display: block;
+  border: 1px solid #000;
   border-radius: 100%;
   margin: 0 auto;
 }
 
 header h1 {
   text-align: center;
-  font-size: 3rem;
+  font-size: 8rem;
   color: #FFF;
+  font-family: 'Creepster', cursive;
 }
 
 h2 {
-  font-size: 2.5rem;
+  font-size: 3rem;  
+}
+
+h3 {
+  font-family: 'Creepster', cursive;
+  font-size: 5rem;
 }
 
 p, li {
@@ -59,8 +68,5 @@ p, li {
 
 a {
   font-size: 2rem;
-}
-
-a {
   text-decoration: none;
 }

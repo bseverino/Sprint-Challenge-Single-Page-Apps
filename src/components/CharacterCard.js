@@ -4,7 +4,7 @@ import styled from 'styled-components';
 const Card = styled.span`
   width: 400px;
   margin-top: 30px;
-  padding: 20px 0;
+  padding-bottom: 20px;
   border-radius: 10px;
   background: #4B0082;
   color: #FF69B4;
@@ -12,6 +12,7 @@ const Card = styled.span`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
 
   @media (max-width: 800px) {
     width: 80%;
@@ -37,7 +38,7 @@ const Bullet = styled.li`
 export default function CharacterCard(props) {
   return (
     <Card>
-      <h2>{props.name}</h2>
+      <h3>{props.name}</h3>
       <Image src={props.image} alt={props.name} />
       <Info>
         <Bullet>Gender: {props.gender}</Bullet>

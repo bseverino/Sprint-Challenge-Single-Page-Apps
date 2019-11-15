@@ -41,7 +41,7 @@ export default function SearchForm(props) {
     <div>
       <Search className="search-form">
         <form>
-          <Input id='name' type='text' name='searchField' placeholder='search' value={searchTerm} onChange={handleChange} />
+          <Input id='name' type='text' name='searchField' placeholder='search by name' value={searchTerm} onChange={handleChange} />
         </form>
       </Search>
         <List>
